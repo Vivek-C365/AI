@@ -39,9 +39,9 @@ const HeroSection = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.5, duration: 0.6 }}
         >
-          Tired of juggling assignments, quizzes, and deadlines?
+          Tired of juggling assignments, quizzes, and deadlines? 
           <span className="highlight">
-            EDUAI is your personal AI-powered study assistant
+             {" "}EDUAI is your personal AI-powered study assistant
           </span>
           —designed to streamline coursework, optimize study schedules, and
           maximize productivity.
@@ -89,7 +89,7 @@ const HeroSection = () => {
         transition={{ delay: 1, duration: 0.8 }}
       >
         <img
-          src="https://images.unsplash.com/photo-1573496799652-408c2ac9fe98?auto=format&fit=crop&q=80"
+          src="/eduaide_cube.png"
           alt="Student using EDUAI"
         />
       </motion.div>

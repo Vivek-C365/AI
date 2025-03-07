@@ -34,12 +34,10 @@ body {
 }
 
 .hero-section {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
   gap: 2rem;
   align-items: center;
   margin-bottom: 4rem;
-  padding: 2rem 7rem;
+  padding: 2rem 2rem;
 }
 
 .hero-content h1 {
@@ -65,17 +63,12 @@ body {
 }
 
 .hero-image {
-  background: linear-gradient(45deg, #8860ff, #b878ff);
-  border-radius: 24px;
-  overflow: hidden;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
 }
 
-.hero-image img {
-  width: 100%;
-  height: auto;
-  display: block;
-  mix-blend-mode: luminosity;
-}
+
 
 .cta-buttons {
   display: flex;

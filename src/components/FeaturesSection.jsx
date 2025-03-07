@@ -41,14 +41,14 @@ export default function FeaturesSection() {
 
   return (
     <section className="min-h-screen  flex flex-col items-center p-8">
-      <h2 className="text-3xl md:text-4xl font-bold text-[#9e6bff] flex items-center gap-2">
+      <h2 className="text-3xl md:text-4xl text-center font-bold text-[#9e6bff] flex items-center gap-2">
         🚀 Features That Change the Game
       </h2>
       <p className="text-gray-400 mt-2 text-center">
         Experience the next generation of AI-powered learning
       </p>
 
-      <div className="mt-8 grid grid-cols-1 md:grid-cols-3 gap-6 w-full max-w-6xl">
+      <div className="mt-8  flex flex-wrap justify-center gap-6 w-full max-w-6xl">
         
         {features.map((feature, index) => (
           <PixelCard variant="pink" colors="#b4a6cebd">
